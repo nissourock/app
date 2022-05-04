@@ -11,7 +11,20 @@ const Index = () => {
     <Layout pageTitle="Anis' First Website!">
 <Head>
 
-
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "LocalBusiness",
+  "name" : "Anis Si Bachir",
+  "telephone" : "0658 02 30 44",
+  "email" : "anisdemi@outlook.fr",
+  "address" : {
+    "@type" : "PostalAddress",
+    "addressLocality" : "Alger",
+    "addressCountry" : "Algérie"
+  }
+}
+</script>
 
 </Head>
       <Header />
