@@ -6,12 +6,8 @@ import Service from '../components/Service';
 import About from '../components/About';
 import Footer from '../components/Footer';
 import Head from 'next/head'
-const Index = () => {
-  return (
-    <Layout pageTitle="Anis' First Website!">
-<Head>
 
-<script type="application/ld+json">
+const schela = 
 {
   "@context" : "http://schema.org",
   "@type" : "LocalBusiness",
@@ -24,6 +20,14 @@ const Index = () => {
     "addressCountry" : "Algérie"
   }
 }
+const Index = () => {
+  return (
+    <Layout pageTitle="Anis' First Website!">
+<Head>
+
+<script type="application/ld+json"
+dangerouslySetInnerHTML={{ __html: JSON.stringify(schela) }}>
+
 </script>
 
 </Head>
