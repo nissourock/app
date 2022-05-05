@@ -24,7 +24,7 @@ const Index = () => {
   return (
     <Layout pageTitle="Anis' First Website!">
 <Head>
-
+<meta name="google-site-verification" content="XQnwHA4rdPUdCvUOlMP-JDkVltW75rlgA1k9NcMGCjw" />
 <script type="application/ld+json"
 dangerouslySetInnerHTML={{ __html: JSON.stringify(schela) }}>
 
